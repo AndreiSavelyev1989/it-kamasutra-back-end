@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 const port = process.env.PORT || 3000;
 app.get("/", (req, res) => {
-    const helloMessage = "Hello Andrei!";
+    const helloMessage = "Hello Andrei from render.com";
     res.send(helloMessage);
 });
 app.listen(port, () => {
